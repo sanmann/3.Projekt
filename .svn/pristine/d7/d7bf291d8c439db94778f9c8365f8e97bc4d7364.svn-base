@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessTier", "BusinessTier\BusinessTier.csproj", "{368CD10F-170B-4EAE-B2C3-E8B3445A6C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTier", "DataTier\DataTier.csproj", "{F769F3FB-28A4-4B2A-B91D-5E59FFA86183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTier", "DBTier\DBTier.csproj", "{EFFED561-7B41-4950-9E4C-58090F8C8518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{368CD10F-170B-4EAE-B2C3-E8B3445A6C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368CD10F-170B-4EAE-B2C3-E8B3445A6C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368CD10F-170B-4EAE-B2C3-E8B3445A6C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368CD10F-170B-4EAE-B2C3-E8B3445A6C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F769F3FB-28A4-4B2A-B91D-5E59FFA86183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F769F3FB-28A4-4B2A-B91D-5E59FFA86183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F769F3FB-28A4-4B2A-B91D-5E59FFA86183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F769F3FB-28A4-4B2A-B91D-5E59FFA86183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFED561-7B41-4950-9E4C-58090F8C8518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFED561-7B41-4950-9E4C-58090F8C8518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFED561-7B41-4950-9E4C-58090F8C8518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFED561-7B41-4950-9E4C-58090F8C8518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
