@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
+    <Compile Include="DBCustomer.cs" />
     <Compile Include="DBEmployee.cs" />
     <Compile Include="DBGetMax.cs" />
+    <Compile Include="DBPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

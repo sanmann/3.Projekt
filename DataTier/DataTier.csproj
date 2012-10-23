@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="City.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Hall.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="Reservation.cs" />
     <Compile Include="Seat.cs" />
     <Compile Include="Show.cs" />
+    <Compile Include="UserCredentials.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

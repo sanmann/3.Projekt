@@ -46,6 +46,20 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessTier\BusinessTier.csproj">
+      <Project>{368CD10F-170B-4EAE-B2C3-E8B3445A6C25}</Project>
+      <Name>BusinessTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataTier\DataTier.csproj">
+      <Project>{F769F3FB-28A4-4B2A-B91D-5E59FFA86183}</Project>
+      <Name>DataTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBTier\DBTier.csproj">
+      <Project>{EFFED561-7B41-4950-9E4C-58090F8C8518}</Project>
+      <Name>DBTier</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
